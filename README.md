@@ -63,8 +63,8 @@ The conversion process uses Pillow for most formats and texconv.exe for DDS.
 🚀 Now you’re ready to start converting images! 🚀
 
 Preview :
-https://i.imgur.com/WKQ3KeX.png
-https://i.imgur.com/bACkurK.png
-https://i.imgur.com/a1Xy5Al.png
-https://i.imgur.com/1083LZQ.png
-https://i.imgur.com/eYKc1f3.png
+Preview : https://i.imgur.com/WKQ3KeX.png
+Preview : https://i.imgur.com/bACkurK.png
+Preview : https://i.imgur.com/a1Xy5Al.png
+Preview : https://i.imgur.com/1083LZQ.png
+Preview : https://i.imgur.com/eYKc1f3.png
