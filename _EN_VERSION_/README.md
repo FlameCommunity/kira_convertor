@@ -27,3 +27,13 @@ Troubleshooting Common Issues & Fixes 🔴 Error: texconv.exe not found ✔ Fix:
 🔴 Error: [X] No files found with extension .xxx in 'input' ✔ Fix: Make sure you have placed images in the input folder and selected the correct input format.
 
 Additional Notes Avoid modifying sections marked as "DON'T TOUCH IF YOU DON'T KNOW WHAT YOU ARE DOING". This script supports .PNG, .JPG, .TGA, and .DDS formats. The conversion process uses Pillow for most formats and texconv.exe for DDS. 🚀 Now you’re ready to start converting images! 🚀
+
+This Python script has been updated to support image conversion to and from WEBP format, alongside the existing formats: PNG, JPG, DDS, and TGA.
+
+Main features:
+📂 Automatic conversion of all files in a specified folder.
+🎨 Support for PNG, JPG, DDS, TGA, and WEBP formats.
+📝 Automatic logging of all conversions and errors in log.txt.
+🔄 Fast processing and a user-friendly interface with colored terminal messages.
+⚡ Converts WEBP files to other formats and vice versa, with a default quality setting of 90 for WebP.
+Now, you can easily convert images between multiple formats, including WEBP, using this simple and efficient script. 🚀
