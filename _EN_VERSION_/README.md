@@ -1,63 +1,33 @@
-Image Conversion Script - Description & Installation Guide
-Overview
-This script allows you to convert images between different formats, including PNG, JPG, DDS, and TGA. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
+Script de Conversie Imagini - Descriere & Ghid de Instalare Prezentare Generală Acest script permite conversia imaginilor între diferite formate, inclusiv PNG, JPG, DDS și TGA. Scriptul scanează un folder de intrare, procesează imaginile și le salvează într-un folder de ieșire, generând în același timp un log cu rezultatele conversiei. De asemenea, oferă interacțiune cu utilizatorul pentru selecția formatelor.
 
-Features
-Converts PNG, JPG, DDS, and TGA images.
-Uses texconv.exe for DDS conversion.
-Generates logs for each conversion.
-Interactive format selection.
-Automatically creates the required output folder.
-Installation & Setup Guide
-Step 1: Install Required Dependencies
-Ensure you have Python 3 installed on your system. You will also need some Python libraries:
+Funcționalități ✅ Conversie între formatele PNG, JPG, DDS și TGA ✅ Utilizează texconv.exe pentru conversia DDS ✅ Generează log-uri pentru fiecare conversie ✅ Permite selectarea interactivă a formatelor ✅ Creează automat folderul necesar pentru ieșire
 
-Install Required Python Modules
-Run the following command in the terminal or command prompt to install the necessary dependencies:
+Instalare și Configurare Pasul 1: Instalează Dependențele Necesare Asigură-te că ai instalat Python 3 pe sistemul tău. De asemenea, ai nevoie de anumite biblioteci Python.
+
+Instalare module necesare Rulează următoarea comandă în terminal sau în linia de comandă:
 
 pip install pillow imageio numpy
 
-Step 2: Download texconv.exe (Required for DDS conversion)
-If you plan to convert images to DDS format, you must download and place texconv.exe in the same directory as the script.
+Pasul 2: Descarcă texconv.exe (Necesar pentru conversia DDS) Dacă intenționezi să convertești imagini în format DDS, trebuie să descarci și să plasezi texconv.exe în același director cu scriptul.
 
-Download texconv.exe here:
-https://github.com/Microsoft/DirectXTex/releases
-Once downloaded, place texconv.exe in the same folder as conv.py.
+Descarcă texconv.exe aici: https://github.com/Microsoft/DirectXTex/releases
 
-Usage Instructions
-Step 1: Prepare Your Files
-Create a folder named input in the script directory.
-Place the images you want to convert inside the input folder.
-Step 2: Run the Script
-Run the script using the following command:
+După descărcare, copiază texconv.exe în același folder unde ai scriptul conv.py.
+
+Instrucțiuni de Utilizare Pasul 1: Pregătește Fișierele Creează un folder numit input în directorul scriptului. Plasează imaginile pe care vrei să le convertești în acest folder. Pasul 2: Rulează Scriptul Rulează scriptul utilizând comanda:
 
 python conv.py
 
+Pasul 3: Selectează Formatele La rulare, scriptul te va întreba:
 
-Step 3: Select Formats
-The script will prompt you to select:
+Formatul fișierelor de intrare. Formatul dorit pentru conversie. Introdu numărul corespunzător formatului dorit.
 
-The format of the input files.
-The desired output format.
-Choose the corresponding numbers when prompted.
+Pasul 4: Verifică Fișierele Convertite Imaginile convertite vor fi salvate în folderul output. Log-ul conversiei va fi salvat în log.txt.
 
-Step 4: Check the Output
-The converted files will be saved in the output folder.
-Conversion logs will be saved in log.txt.
+Depanare (Troubleshooting) Erori Comune & Soluții ❌ Eroare: texconv.exe nu a fost găsit ✔ Soluție: Asigură-te că texconv.exe este plasat în folderul scriptului.
 
-Troubleshooting
-Common Issues & Fixes
-🔴 Error: texconv.exe not found
-✔ Fix: Ensure texconv.exe is placed in the script folder.
+❌ Eroare: [X] Folderul 'input' nu există! ✔ Soluție: Creează un folder numit input și adaugă imaginile.
 
-🔴 Error: [X] Folder 'input' does not exist!
-✔ Fix: Create a folder named input and place your images inside.
+❌ Eroare: [X] Nu s-au găsit fișiere cu extensia .xxx în 'input' ✔ Soluție: Verifică dacă ai plasat imaginile în folderul input și dacă ai ales formatul corect.
 
-🔴 Error: [X] No files found with extension .xxx in 'input'
-✔ Fix: Make sure you have placed images in the input folder and selected the correct input format.
-
-Additional Notes
-Avoid modifying sections marked as "DON'T TOUCH IF YOU DON'T KNOW WHAT YOU ARE DOING".
-This script supports .PNG, .JPG, .TGA, and .DDS formats.
-The conversion process uses Pillow for most formats and texconv.exe for DDS.
-🚀 Now you’re ready to start converting images! 🚀
+Note Suplimentare Evită modificarea secțiunilor marcate cu "DON'T TOUCH IF YOU DON'T KNOW WHAT ARE YOU DOING". Scriptul suportă conversia între formatele .PNG, .JPG, .TGA și .DDS. Procesul de conversie utilizează Pillow pentru majoritatea formatelor și texconv.exe pentru DDS. 🚀 Acum ești pregătit să începi conversia imaginilor! 🚀
