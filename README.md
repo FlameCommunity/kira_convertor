@@ -1,6 +1,6 @@
 Image Conversion Script - Description & Installation Guide
 Overview
-This script allows you to convert images between different formats, including PNG, JPG, DDS, and TGA. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
+This script allows you to convert images between different formats, including PNG, JPG, DDS, TGA and WEBP. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
 
 Features
 Converts PNG, JPG, DDS, TGA and WEBP images.
