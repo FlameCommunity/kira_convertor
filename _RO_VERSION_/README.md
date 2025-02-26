@@ -31,3 +31,13 @@ Depanare (Troubleshooting) Erori Comune & Soluții ❌ Eroare: texconv.exe nu a 
 ❌ Eroare: [X] Nu s-au găsit fișiere cu extensia .xxx în 'input' ✔ Soluție: Verifică dacă ai plasat imaginile în folderul input și dacă ai ales formatul corect.
 
 Note Suplimentare Evită modificarea secțiunilor marcate cu "DON'T TOUCH IF YOU DON'T KNOW WHAT ARE YOU DOING". Scriptul suportă conversia între formatele .PNG, .JPG, .TGA și .DDS. Procesul de conversie utilizează Pillow pentru majoritatea formatelor și texconv.exe pentru DDS. 🚀 Acum ești pregătit să începi conversia imaginilor! 🚀
+
+Acest script Python a fost actualizat pentru a suporta conversia imaginilor în și din formatul WEBP, pe lângă formatele deja existente: PNG, JPG, DDS și TGA.
+
+Funcționalități principale:
+📂 Conversie automată a tuturor fișierelor dintr-un folder specificat.
+🎨 Suport pentru formatele PNG, JPG, DDS, TGA și WEBP.
+📝 Logare automată a tuturor conversiilor și erorilor într-un fișier log.txt.
+🔄 Procesare rapidă și interfață prietenoasă cu mesaje colorate în terminal.
+⚡ Conversia fișierelor WEBP la alte formate și viceversa, cu setare implicită de calitate 90 pentru WebP.
+Acum poți converti imagini cu ușurință între multiple formate, inclusiv WEBP, folosind acest script simplu și eficient. 🚀
