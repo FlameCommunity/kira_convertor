@@ -53,7 +53,7 @@ def get_format_choice(message):
         "2": "jpg",
         "3": "dds",
         "4": "tga",
-        "5": "webp"  # NEW
+        "5": "webp"  # NEW WEBP
     }
     while True:
         print("\nSelectați formatul:")
