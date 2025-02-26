@@ -63,7 +63,7 @@ The conversion process uses Pillow for most formats and texconv.exe for DDS.
 🚀 Now you’re ready to start converting images! 🚀
 
 --- NEWS ---
-This Python script has been updated to support image conversion to and from WEBP format, alongside the existing formats: PNG, JPG, DDS, and TGA.
+This Python script has been updated to support image conversion to and from WEBP format, alongside the existing formats: PNG, JPG, DDS, TGA and WEBP.
 
 Main features:
 📂 Automatic conversion of all files in a specified folder.
