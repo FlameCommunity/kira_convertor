@@ -1,6 +1,6 @@
 Script de Conversie Imagini - Descriere & Ghid de Instalare Prezentare Generală Acest script permite conversia imaginilor între diferite formate, inclusiv PNG, JPG, DDS și TGA. Scriptul scanează un folder de intrare, procesează imaginile și le salvează într-un folder de ieșire, generând în același timp un log cu rezultatele conversiei. De asemenea, oferă interacțiune cu utilizatorul pentru selecția formatelor.
 
-Funcționalități ✅ Conversie între formatele PNG, JPG, DDS și TGA ✅ Utilizează texconv.exe pentru conversia DDS ✅ Generează log-uri pentru fiecare conversie ✅ Permite selectarea interactivă a formatelor ✅ Creează automat folderul necesar pentru ieșire
+Funcționalități ✅ Conversie între formatele PNG, JPG, DDS, TGA și WEBP ✅ Utilizează texconv.exe pentru conversia DDS ✅ Generează log-uri pentru fiecare conversie ✅ Permite selectarea interactivă a formatelor ✅ Creează automat folderul necesar pentru ieșire
 
 Instalare și Configurare Pasul 1: Instalează Dependențele Necesare Asigură-te că ai instalat Python 3 pe sistemul tău. De asemenea, ai nevoie de anumite biblioteci Python.
 
