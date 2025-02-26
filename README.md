@@ -73,14 +73,8 @@ Main features:
 ⚡ Converts WEBP files to other formats and vice versa, with a default quality setting of 90 for WebP.
 
 ----------- PREVIEW -----------
-1.
 ![Screenshot_43](https://github.com/user-attachments/assets/2beac4b5-f188-4a4a-a9a6-8a1bcd304fb0)
-2.
 ![Screenshot_44](https://github.com/user-attachments/assets/db9effe0-e399-4bcb-a7aa-7ee2a8e75d59)
-3.
 ![Screenshot_45](https://github.com/user-attachments/assets/c7e4f8c1-60f3-454c-8803-927c7ee68a00)
-4.
 ![Screenshot_46](https://github.com/user-attachments/assets/26eadbf7-de20-412d-a55f-4f9d6ad12449)
-5.
 ![Screenshot_47](https://github.com/user-attachments/assets/6ffad8b0-e30a-4a58-a096-fc419a875ea9)
-Done.
