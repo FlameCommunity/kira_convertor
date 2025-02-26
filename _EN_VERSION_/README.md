@@ -1,6 +1,6 @@
 Image Conversion Script - Description & Installation Guide Overview This script allows you to convert images between different formats, including PNG, JPG, DDS, and TGA. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
 
-Features Converts PNG, JPG, DDS, and TGA images. Uses texconv.exe for DDS conversion. Generates logs for each conversion. Interactive format selection. Automatically creates the required output folder. Installation & Setup Guide Step 1: Install Required Dependencies Ensure you have Python 3 installed on your system. You will also need some Python libraries:
+Features Converts PNG, JPG, DDS, TGA and WEBP images. Uses texconv.exe for DDS conversion. Generates logs for each conversion. Interactive format selection. Automatically creates the required output folder. Installation & Setup Guide Step 1: Install Required Dependencies Ensure you have Python 3 installed on your system. You will also need some Python libraries:
 
 Install Required Python Modules Run the following command in the terminal or command prompt to install the necessary dependencies:
 
