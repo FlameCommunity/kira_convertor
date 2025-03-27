@@ -1,9 +1,9 @@
 Image Conversion Script - Description & Installation Guide
 Overview
-This script allows you to convert images between different formats, including PNG, JPG, DDS, TGA and WEBP. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
+This script allows you to convert images between different formats, including PNG, JPG, DDS, TGA, WEBP and ICO. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
 
 Features
-Converts PNG, JPG, DDS, TGA and WEBP images.
+Converts PNG, JPG, DDS, TGA, WEBP and ICO images.
 Uses texconv.exe for DDS conversion.
 Generates logs for each conversion.
 Interactive format selection.
@@ -63,11 +63,11 @@ The conversion process uses Pillow for most formats and texconv.exe for DDS.
 🚀 Now you’re ready to start converting images! 🚀
 
 --- NEWS ---
-This Python script has been updated to support image conversion to and from WEBP format, alongside the existing formats: PNG, JPG, DDS, TGA and WEBP.
+This Python script has been updated to support image conversion to and from ICO format, alongside the existing formats: PNG, JPG, DDS, TGA, WEBP and ICO.
 
 Main features:
 📂 Automatic conversion of all files in a specified folder.
-🎨 Support for PNG, JPG, DDS, TGA, and WEBP formats.
+🎨 Support for PNG, JPG, DDS, TGA, WEBP and ICO formats.
 📝 Automatic logging of all conversions and errors in log.txt.
 🔄 Fast processing and a user-friendly interface with colored terminal messages.
 ⚡ Converts WEBP files to other formats and vice versa, with a default quality setting of 90 for WebP.
