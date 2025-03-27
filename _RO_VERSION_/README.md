@@ -1,6 +1,6 @@
-Script de Conversie Imagini - Descriere & Ghid de Instalare Prezentare Generală Acest script permite conversia imaginilor între diferite formate, inclusiv PNG, JPG, DDS și TGA. Scriptul scanează un folder de intrare, procesează imaginile și le salvează într-un folder de ieșire, generând în același timp un log cu rezultatele conversiei. De asemenea, oferă interacțiune cu utilizatorul pentru selecția formatelor.
+Script de Conversie Imagini - Descriere & Ghid de Instalare Prezentare Generală Acest script permite conversia imaginilor între diferite formate, inclusiv PNG, JPG, DDS, TGA, WEBP și ICO. Scriptul scanează un folder de intrare, procesează imaginile și le salvează într-un folder de ieșire, generând în același timp un log cu rezultatele conversiei. De asemenea, oferă interacțiune cu utilizatorul pentru selecția formatelor.
 
-Funcționalități ✅ Conversie între formatele PNG, JPG, DDS, TGA și WEBP ✅ Utilizează texconv.exe pentru conversia DDS ✅ Generează log-uri pentru fiecare conversie ✅ Permite selectarea interactivă a formatelor ✅ Creează automat folderul necesar pentru ieșire
+Funcționalități ✅ Conversie între formatele PNG, JPG, DDS, TGA, WEBP și ICO ✅ Utilizează texconv.exe pentru conversia DDS ✅ Generează log-uri pentru fiecare conversie ✅ Permite selectarea interactivă a formatelor ✅ Creează automat folderul necesar pentru ieșire
 
 Instalare și Configurare Pasul 1: Instalează Dependențele Necesare Asigură-te că ai instalat Python 3 pe sistemul tău. De asemenea, ai nevoie de anumite biblioteci Python.
 
@@ -32,11 +32,11 @@ Depanare (Troubleshooting) Erori Comune & Soluții ❌ Eroare: texconv.exe nu a 
 
 Note Suplimentare Evită modificarea secțiunilor marcate cu "DON'T TOUCH IF YOU DON'T KNOW WHAT ARE YOU DOING". Scriptul suportă conversia între formatele .PNG, .JPG, .TGA și .DDS. Procesul de conversie utilizează Pillow pentru majoritatea formatelor și texconv.exe pentru DDS. 🚀 Acum ești pregătit să începi conversia imaginilor! 🚀
 
-Acest script Python a fost actualizat pentru a suporta conversia imaginilor în și din formatul WEBP, pe lângă formatele deja existente: PNG, JPG, DDS și TGA.
+Acest script Python a fost actualizat pentru a suporta conversia imaginilor în și din formatul ICO, pe lângă formatele deja existente: PNG, JPG, DDS și TGA.
 
 Funcționalități principale:
 📂 Conversie automată a tuturor fișierelor dintr-un folder specificat.
-🎨 Suport pentru formatele PNG, JPG, DDS, TGA și WEBP.
+🎨 Suport pentru formatele PNG, JPG, DDS, TGA, WEBP și ICO.
 📝 Logare automată a tuturor conversiilor și erorilor într-un fișier log.txt.
 🔄 Procesare rapidă și interfață prietenoasă cu mesaje colorate în terminal.
 ⚡ Conversia fișierelor WEBP la alte formate și viceversa, cu setare implicită de calitate 90 pentru WebP.
