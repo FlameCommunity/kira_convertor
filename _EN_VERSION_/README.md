@@ -1,6 +1,6 @@
-Image Conversion Script - Description & Installation Guide Overview This script allows you to convert images between different formats, including PNG, JPG, DDS, and TGA. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
+Image Conversion Script - Description & Installation Guide Overview This script allows you to convert images between different formats, including PNG, JPG, DDS, TGA, WEBP and ICO. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
 
-Features Converts PNG, JPG, DDS, TGA and WEBP images. Uses texconv.exe for DDS conversion. Generates logs for each conversion. Interactive format selection. Automatically creates the required output folder. Installation & Setup Guide Step 1: Install Required Dependencies Ensure you have Python 3 installed on your system. You will also need some Python libraries:
+Features Converts PNG, JPG, DDS, TGA, WEBP and ICO images. Uses texconv.exe for DDS conversion. Generates logs for each conversion. Interactive format selection. Automatically creates the required output folder. Installation & Setup Guide Step 1: Install Required Dependencies Ensure you have Python 3 installed on your system. You will also need some Python libraries:
 
 Install Required Python Modules Run the following command in the terminal or command prompt to install the necessary dependencies:
 
@@ -28,11 +28,11 @@ Troubleshooting Common Issues & Fixes 🔴 Error: texconv.exe not found ✔ Fix:
 
 Additional Notes Avoid modifying sections marked as "DON'T TOUCH IF YOU DON'T KNOW WHAT YOU ARE DOING". This script supports .PNG, .JPG, .TGA, and .DDS formats. The conversion process uses Pillow for most formats and texconv.exe for DDS. 🚀 Now you’re ready to start converting images! 🚀
 
-This Python script has been updated to support image conversion to and from WEBP format, alongside the existing formats: PNG, JPG, DDS, and TGA.
+This Python script has been updated to support image conversion to and from ICO format, alongside the existing formats: PNG, JPG, DDS, TGA, WEBP and ICO.
 
 Main features:
 📂 Automatic conversion of all files in a specified folder.
-🎨 Support for PNG, JPG, DDS, TGA, and WEBP formats.
+🎨 Support for PNG, JPG, DDS, TGA, WEBP and ICO formats.
 📝 Automatic logging of all conversions and errors in log.txt.
 🔄 Fast processing and a user-friendly interface with colored terminal messages.
 ⚡ Converts WEBP files to other formats and vice versa, with a default quality setting of 90 for WebP.
