@@ -1,9 +1,9 @@
 Image Conversion Script - Description & Installation Guide
 Overview
-This script allows you to convert images between different formats, including PNG, JPG, DDS, TGA, WEBP and ICO. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
+This script allows you to convert images between different formats, including PNG, JPG, DDS, TGA, WEBP, ICO and BMP. It scans an input folder, processes images, and saves them in an output folder while logging the conversion results. It also provides user interaction for selecting formats.
 
 Features
-Converts PNG, JPG, DDS, TGA, WEBP and ICO images.
+Converts PNG, JPG, DDS, TGA, WEBP, ICO and BMP images.
 Uses texconv.exe for DDS conversion.
 Generates logs for each conversion.
 Interactive format selection.
@@ -63,14 +63,48 @@ The conversion process uses Pillow for most formats and texconv.exe for DDS.
 🚀 Now you’re ready to start converting images! 🚀
 
 --- NEWS ---
-This Python script has been updated to support image conversion to and from ICO format, alongside the existing formats: PNG, JPG, DDS, TGA, WEBP and ICO.
+This Python script has been updated to support image conversion to and from ICO format, alongside the existing formats: PNG, JPG, DDS, TGA, WEBP, ICO and BMP.
 
 Main features:
 📂 Automatic conversion of all files in a specified folder.
-🎨 Support for PNG, JPG, DDS, TGA, WEBP and ICO formats.
+🎨 Support for PNG, JPG, DDS, TGA, WEBP, ICO and BMP formats.
 📝 Automatic logging of all conversions and errors in log.txt.
 🔄 Fast processing and a user-friendly interface with colored terminal messages.
 ⚡ Converts WEBP files to other formats and vice versa, with a default quality setting of 90 for WebP.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+[ UPDATE ]
+
+syserr.txt file
+– Records every conversion error (source → destination path and error message).
+– Automatically cleared at the start of each run.
+
+Final message (“EndTask”)
+– Displays the total number of images processed and the success rate, e.g. 25/25 (100%).
+– If any conversions fail, their details are written to syserr.txt, and full error entries go into log.txt.
+
+log.txt file
+– Maintains a detailed record for each file: timestamp, status ([OK] or [X]), source and destination paths, plus any exception messages.
+
+Auto‐clear of syserr.txt
+– Ensures that each script invocation starts with an empty error log.
+
+Colored console output
+– Uses different colors for states: blue for processing, green for success, red for errors, yellow for warnings/announcements.
+
+DDS, TGA, and BMP conversion
+– Supports direct export to TGA (via imageio), DDS (via texconv.exe), and BMP (via PIL), in addition to PNG, JPG, WEBP, and ICO.
+
+Interactive format selection
+– Presents console menus for choosing input and output formats by number.
+
+Total duration calculation and display
+– Times the entire batch conversion and shows the elapsed seconds at the end.
+
+Automatic input file scanning
+– Scans the input folder for all files matching the chosen extension and processes them in batch.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ----------- PREVIEW -----------
 ![Screenshot_43](https://github.com/user-attachments/assets/2beac4b5-f188-4a4a-a9a6-8a1bcd304fb0)
