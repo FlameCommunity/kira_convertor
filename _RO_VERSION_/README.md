@@ -1,6 +1,6 @@
-Script de Conversie Imagini - Descriere & Ghid de Instalare Prezentare Generală Acest script permite conversia imaginilor între diferite formate, inclusiv PNG, JPG, DDS, TGA, WEBP și ICO. Scriptul scanează un folder de intrare, procesează imaginile și le salvează într-un folder de ieșire, generând în același timp un log cu rezultatele conversiei. De asemenea, oferă interacțiune cu utilizatorul pentru selecția formatelor.
+Script de Conversie Imagini - Descriere & Ghid de Instalare Prezentare Generală Acest script permite conversia imaginilor între diferite formate, inclusiv PNG, JPG, DDS, TGA, WEBP, ICO și BMP. Scriptul scanează un folder de intrare, procesează imaginile și le salvează într-un folder de ieșire, generând în același timp un log cu rezultatele conversiei. De asemenea, oferă interacțiune cu utilizatorul pentru selecția formatelor.
 
-Funcționalități ✅ Conversie între formatele PNG, JPG, DDS, TGA, WEBP și ICO ✅ Utilizează texconv.exe pentru conversia DDS ✅ Generează log-uri pentru fiecare conversie ✅ Permite selectarea interactivă a formatelor ✅ Creează automat folderul necesar pentru ieșire
+Funcționalități ✅ Conversie între formatele PNG, JPG, DDS, TGA, WEBP, ICO and BMP ✅ Utilizează texconv.exe pentru conversia DDS ✅ Generează log-uri pentru fiecare conversie ✅ Permite selectarea interactivă a formatelor ✅ Creează automat folderul necesar pentru ieșire
 
 Instalare și Configurare Pasul 1: Instalează Dependențele Necesare Asigură-te că ai instalat Python 3 pe sistemul tău. De asemenea, ai nevoie de anumite biblioteci Python.
 
@@ -32,12 +32,44 @@ Depanare (Troubleshooting) Erori Comune & Soluții ❌ Eroare: texconv.exe nu a 
 
 Note Suplimentare Evită modificarea secțiunilor marcate cu "DON'T TOUCH IF YOU DON'T KNOW WHAT ARE YOU DOING". Scriptul suportă conversia între formatele .PNG, .JPG, .TGA și .DDS. Procesul de conversie utilizează Pillow pentru majoritatea formatelor și texconv.exe pentru DDS. 🚀 Acum ești pregătit să începi conversia imaginilor! 🚀
 
-Acest script Python a fost actualizat pentru a suporta conversia imaginilor în și din formatul ICO, pe lângă formatele deja existente: PNG, JPG, DDS și TGA.
+Acest script Python a fost actualizat pentru a suporta conversia imaginilor în și din formatul ICO, pe lângă formatele deja existente: PNG, JPG, DDS, TGA, WEBP, ICO și BMP.
 
 Funcționalități principale:
 📂 Conversie automată a tuturor fișierelor dintr-un folder specificat.
-🎨 Suport pentru formatele PNG, JPG, DDS, TGA, WEBP și ICO.
+🎨 Suport pentru formatele PNG, JPG, DDS, TGA, WEBP, ICO și BMP.
 📝 Logare automată a tuturor conversiilor și erorilor într-un fișier log.txt.
 🔄 Procesare rapidă și interfață prietenoasă cu mesaje colorate în terminal.
 ⚡ Conversia fișierelor WEBP la alte formate și viceversa, cu setare implicită de calitate 90 pentru WebP.
 Acum poți converti imagini cu ușurință între multiple formate, inclusiv WEBP, folosind acest script simplu și eficient. 🚀
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+[UPDATE]
+Fișierul syserr.txt
+– Înregistrează toate erorile întâmpinate în timpul conversiei (calea fișierului sursă → destinație și mesajul de eroare).
+– Este golit automat la începutul fiecărei rulări.
+
+Mesaj final („EndTask”)
+– Afișează numărul total de imagini procesate și procentajul de conversii reușite, ex: 25/25 (100%).
+– Dacă una sau mai multe conversii eșuează, listează în syserr.txt detaliile erorilor și în log.txt mesajele complete de eroare.
+
+Fișierul log.txt
+– Păstrează un jurnal detaliat pentru fiecare fișier procesat: timestamp, stare ([OK] sau [X]), cale sursă și destinație, plus mesajele de eroare când apare excepție.
+
+Ștergerea automată a syserr.txt
+– La fiecare pornire a scriptului, syserr.txt este golit pentru a începe cu un jurnal curat al erorilor curente.
+
+Output colorat în consolă
+– Mesaje de stare afișate cu culori diferite (albastru pentru procesare, verde pentru succes, roșu pentru erori, galben pentru anunțuri).
+
+Conversie DDS, TGA și BMP
+– Suport direct pentru export în formatele TGA (folosind imageio), DDS (prin texconv.exe) și BMP (prin PIL), pe lângă PNG, JPG, WEBP și ICO.
+
+Selecție interactivă a formatelor
+– Meniuri în consolă pentru alegerea formatului de intrare și ieșire prin taste numerice.
+
+Calcul și afișare a duratei totale
+– Cronometrează întreg procesul și afișează timpul scurs în secunde la final.
+
+Listă automată a fișierelor de intrare
+– Scanează folderul input pentru toate imaginile cu extensia aleasă și procesează batch-ul fără intervenție manuală.
+------------------------------------------------------------------------------------------------------------------------------------------------
